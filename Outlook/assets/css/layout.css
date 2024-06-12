@@ -1,0 +1,256 @@
+form {
+  display: none;
+}
+
+input {
+  width: 100%;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: unset;
+  border-bottom: 1.5px solid var(--border-color);
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+input:focus, input:active {
+  transition: all ease-in-out 1.5s;
+  border-bottom: 1.5px solid var(--border-blue-color);
+}
+input::placeholder {
+  color: var(--color-white-black-text);
+}
+
+.main {
+  width: 100%;
+  height: calc(100% - 1.7rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container .main-center {
+  width: 455px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main .container .main-center .main-logo {
+  width: 171px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .container .main-center .main-logo img {
+  width: 100%;
+}
+.main .container .main-center .main-context {
+  padding: 40px;
+  width: 100%;
+  height: 339px;
+  background-color: var(--background-color);
+  box-shadow: 1px 2px 5px 1px var(--box-show-color);
+}
+.main .container .main-center .main-context .login-logo {
+  width: 100px;
+}
+.main .container .main-center .main-context .login-logo img {
+  width: 100%;
+}
+.main .container .main-center .main-context .login {
+  width: 100%;
+  height: 100%;
+}
+.main .container .main-center .main-context .login .login-password, .main .container .main-center .main-context .login .login-email {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.46rem;
+  margin-top: 0.7rem;
+}
+.main .container .main-center .main-context .login .login-password h3, .main .container .main-center .main-context .login .login-email h3 {
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(1.5rem, 1.5vh, 0.4rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.36rem;
+}
+.main .container .main-center .main-context .login .login-password h3 span, .main .container .main-center .main-context .login .login-email h3 span {
+  display: inline;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-context .login .login-password .error-email, .main .container .main-center .main-context .login .login-email .error-email {
+  display: none;
+}
+.main .container .main-center .main-context .login .login-password .error-email h5, .main .container .main-center .main-context .login .login-email .error-email h5 {
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+  color: var(--color-red-text);
+}
+.main .container .main-center .main-context .login .login-password .error-email h5 span, .main .container .main-center .main-context .login .login-email .error-email h5 span {
+  cursor: pointer;
+  color: var(--color-blue-text);
+}
+.main .container .main-center .main-context .login .login-password h4, .main .container .main-center .main-context .login .login-email h4 {
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-context .login .login-password h4 span, .main .container .main-center .main-context .login .login-email h4 span {
+  cursor: pointer;
+  font-size: clamp(0.7rem, 1.5vh, 0.4rem);
+  color: var(--border-blue-color);
+}
+.main .container .main-center .main-context .login .login-password div, .main .container .main-center .main-context .login .login-email div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.main .container .main-center .main-context .login .login-password div button, .main .container .main-center .main-context .login .login-email div button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: var(--background-blue-color);
+  color: var(--color-white-text);
+  border: 1.5px solid transparent;
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-context .login .login-password div button:hover, .main .container .main-center .main-context .login .login-email div button:hover {
+  transition: all 1.7s ease-in-out;
+  background-color: var(--background-blueSecund-color);
+}
+.main .container .main-center .main-context .login .login-password {
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main .container .main-center .main-context .login .login-password .display-check {
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-context .login .login-password h6 {
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(1.2rem, 1.5vh, 0.4rem);
+  font-weight: 400;
+}
+.main .container .main-center .main-context .login .login-password h4 {
+  cursor: pointer;
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+  color: var(--color-blue-text);
+}
+.main .container .main-center .main-keys {
+  padding: 20px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--background-color);
+  box-shadow: 1px 2px 5px 1px var(--box-show-color);
+}
+.main .container .main-center .main-keys:hover {
+  cursor: pointer;
+  transition: all 1.7s ease-in-out;
+  background-color: var(--background-black-color);
+}
+.main .container .main-center .main-keys i {
+  color: var(--color-text);
+  font-size: clamp(0.9rem, 1.5vh, 0.4rem);
+  transform: scale(-1, 1);
+}
+.main .container .main-center .main-keys h3 {
+  color: var(--color-text);
+  font-family: "Poppins", "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-info {
+  padding: 20px;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 170px;
+  background-color: var(--background-color);
+  box-shadow: 1px 2px 5px 1px var(--box-show-color);
+  gap: 0.5rem;
+}
+.main .container .main-center .main-info .main-info-first {
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .main-center .main-info .main-info-first h3 {
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.9rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-info .main-info-first i {
+  cursor: pointer;
+  font-size: clamp(0.9rem, 1.5vh, 0.4rem);
+}
+.main .container .main-center .main-info h3, .main .container .main-center .main-info h4, .main .container .main-center .main-info h5 {
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.7rem, 1.5vh, 0.3rem);
+}
+.main .container .main-center .main-info h4 {
+  cursor: pointer;
+  font-size: clamp(0.8rem, 1.5vh, 0.3rem);
+  color: var(--footer-color-blue);
+}
+.main .container .main-center .main-info h5 {
+  font-size: clamp(0.8rem, 1.5vh, 0.3rem);
+}
+.main .container .main-center .main-info h5 span {
+  color: var(--footer-color-black);
+  font-weight: 500;
+}
+.main .container .main-center .main-info h5 .create-id, .main .container .main-center .main-info h5 .create-date {
+  font-size: clamp(0.7rem, 1.5vh, 0.3rem);
+  font-weight: unset;
+}
+
+.footer {
+  width: 100%;
+  height: 1.7rem;
+  background-color: var(--footer-background);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0px 1rem;
+}
+.footer a {
+  cursor: pointer;
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+  color: var(--footer-color-textSecund);
+  text-decoration: none;
+}
+.footer a:hover {
+  transition: all 0.5s ease-in-out;
+  text-decoration: underline;
+  color: var(--footer-color-text);
+}
+.footer i {
+  cursor: pointer;
+  margin-left: 0.9rem;
+  margin-right: 0.2rem;
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+  color: var(--footer-color-textSecund);
+}
+.footer i:hover {
+  transition: all 0.5s ease-in-out;
+  color: var(--footer-color-text);
+}
+
+/*# sourceMappingURL=layout.css.map */

