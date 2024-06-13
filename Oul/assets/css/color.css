@@ -1,0 +1,21 @@
+:root {
+  --background-color: #f7f7f7f7;
+  --backgroundSecund-color: #fafafa;
+  --input-background: #f8f8f8;
+  --input-hover-background: #f8f8f8;
+  --border-black-color: #00000024;
+  --border-blackSecund-color: #0000005c;
+  --banner-background: #E9B425;
+  --btn-color-background: #E29933;
+  --btn-color-backgroundSecund: #b36b08;
+  --btn-color-text: #ffffff;
+  --text-color: #242424;
+  --text-black-color: #0f0f0f;
+  --text-white-color: #b8b8b8;
+  --textSecund-white-color: #7d7c7c;
+  --icon-white-color: #8f8f8f;
+  --text-color-red: #ff0909;
+  --text-color-blue: #1383BF;
+}
+
+/*# sourceMappingURL=color.css.map */

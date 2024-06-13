@@ -1,0 +1,34 @@
+/* ! Desktops and laptops */
+@media only screen and (max-width : 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main {
+        display: flex;
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+      .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        .box{
+            width: 100%;
+            align-items: start;
+            gap: 0.5rem;
+        }
+        .info{
+            width: 60%;
+            background-color: var(--background-color);
+            border: 0px;
+            box-shadow: unset;
+            .sub-title{
+                color: var(--text-black-color);
+            }
+        }
+      }
+      .info-email{
+        display: none;
+      }
+    }
+}
