@@ -1,0 +1,17 @@
+:root {
+  --background-color: #FFFFFF;
+  --background-icon-color: #193bff;
+  --border-input-color: #b4b4b4;
+  --text-input-color: #b4b4b4;
+  --text-input-password-color: #595959;
+  --text-color: #26282A;
+  --text-black-color: #0e0e0e;
+  --text-red-color: #f10606;
+  --text-white-color: #ffffff;
+  --text-blue-color: #188fff;
+  --btn-background-color: #198fff;
+  --btn-backgroundSecund-color: #0668c4;
+  --btn-hover-background-color: #188fff;
+}
+
+/*# sourceMappingURL=color.css.map */

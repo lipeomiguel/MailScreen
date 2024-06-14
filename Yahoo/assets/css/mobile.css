@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1009px) {
+  .main .footer {
+    display: none;
+  }
+  .main .main-container {
+    align-items: center;
+  }
+  .main .main-container .banner-main {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 1009px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    height: 200vh;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

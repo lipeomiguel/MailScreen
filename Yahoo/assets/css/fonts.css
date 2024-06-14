@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Yahoo_Sans-Semibold";
+  src: url("../font/Yahoo_Sans-Semibold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yahoo_Sans-Medium";
+  src: url("../font/Yahoo_Sans-Medium.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yahoo_Sans-Regular";
+  src: url("../font/Yahoo_Sans-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Yahoo_Sans-Bold";
+  src: url("../font/Yahoo_Sans-Bold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=fonts.css.map */

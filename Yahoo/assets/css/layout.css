@@ -1,0 +1,284 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+.main .footer {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .footer .logo {
+  width: 6.5rem;
+  margin-left: 3rem;
+}
+.main .footer .logo img {
+  width: 100%;
+}
+.main .footer .menu {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 3.5rem;
+}
+.main .footer .menu a {
+  text-decoration: none;
+  color: var(--text-blue-color);
+  font-size: clamp(0.9rem, 1.5vh, 0.5rem);
+}
+.main .main-container {
+  width: 100%;
+  height: calc(100% - 6.5rem);
+  display: flex;
+  justify-content: center;
+}
+.main .main-container .banner-main {
+  width: 600px;
+  height: 400px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.main .main-container .banner-main h3 {
+  font-family: "Yahoo_Sans-Bold";
+  line-height: 1.2;
+  font-size: clamp(1.4rem, 1.5vh, 0.9rem);
+}
+.main .main-container .banner-main h2 {
+  font-family: "Yahoo_Sans-Medium";
+  line-height: 1.5;
+  font-size: clamp(1rem, 1.5vh, 0.9rem);
+}
+.main .main-container .info-main {
+  width: 400px;
+  height: 550px;
+  background-color: var(--background-color);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  gap: 1.1rem;
+}
+.main .main-container .info-main .subLogo {
+  width: 100px;
+}
+.main .main-container .info-main .subLogo img {
+  width: 100%;
+}
+.main .main-container .info-main .info-mail {
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main-container .info-main .info-mail .info-mail-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 2.1rem;
+}
+.main .main-container .info-main .info-mail .info-mail-title h3 {
+  font-family: "Yahoo_Sans-Semibold";
+  font-size: clamp(1.3rem, 1.5vh, 0.7rem);
+}
+.main .main-container .info-main .info-mail .info-mail-title h4 {
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(1rem, 1.5vh, 0.9rem);
+}
+.main .main-container .info-main .info-mail .info-mail-input {
+  width: 90%;
+  height: 74%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1.2rem;
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input .email-display {
+  display: none;
+  margin-top: 0.4rem;
+  font-size: clamp(0.8rem, 1.5vh, 0.5rem);
+  color: var(--text-red-color);
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input .input-emails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--border-input-color);
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input .input-emails .fa-envelope {
+  font-size: clamp(1rem, 1.5vh, 0.5rem);
+  margin-right: 0.5rem;
+  color: var(--background-icon-color);
+  transition: all 500ms ease-in;
+  display: none;
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input .input-emails input {
+  width: 90%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0rem;
+  outline: none;
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-input .input-emails label {
+  position: absolute;
+  cursor: pointer;
+  left: 1px;
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(1rem, 1.5vh, 0.5rem);
+  color: var(--text-input-color);
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-next {
+  height: 2.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5rem;
+  background-color: var(--btn-background-color);
+  font-family: "Yahoo_Sans-Semibold", "Yahoo_Sans-Bold";
+  font-size: clamp(1rem, 1.5vh, 0.5rem);
+  color: var(--text-white-color);
+}
+.main .main-container .info-main .info-mail .info-mail-input .email-next:hover {
+  background-color: var(--btn-backgroundSecund-color);
+  transition: all 1.2s ease-in;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-password div {
+  display: inherit;
+  gap: 0.4rem;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-password h5, .main .main-container .info-main .info-mail .info-mail-input .info-mail-password input {
+  cursor: pointer;
+  font-family: "Yahoo_Sans-Regular", "Yahoo_Sans-Medium", "Yahoo_Sans-Semibold";
+  font-size: clamp(0.9rem, 1.5vh, 0.7rem);
+  color: var(--text-blue-color);
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account {
+  width: 100%;
+  display: inherit;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account a {
+  width: 90%;
+  height: 2.8rem;
+  display: inherit;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-blue-color);
+  font-size: clamp(1.3rem, 1.5vh, 0.7rem);
+  border: 1px solid var(--btn-background-color);
+  border-radius: 2.5rem;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account a:hover {
+  opacity: 0.5;
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account a:last-child {
+  gap: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.262745098);
+  color: rgba(0, 0, 0, 0.6784313725);
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account a:last-child i {
+  color: rgba(17, 120, 223, 0.6941176471);
+}
+.main .main-container .info-main .info-mail .info-mail-input .info-mail-account span {
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(0.9rem, 1.5vh, 0.7rem);
+}
+.main .main-container .info-main .info-password {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.main .main-container .info-main .info-password .nickname {
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(1rem, 1.5vh, 0.7rem);
+}
+.main .main-container .info-main .info-password div {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 1.3rem;
+}
+.main .main-container .info-main .info-password div h3 {
+  font-family: "Yahoo_Sans-Semibold";
+  font-size: clamp(1.3rem, 1.5vh, 0.7rem);
+}
+.main .main-container .info-main .info-password div span {
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(0.8rem, 1.5vh, 0.4rem);
+}
+.main .main-container .info-main .info-password .input-password {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-bottom: 1px solid var(--border-input-color);
+  margin-top: 3.5rem;
+}
+.main .main-container .info-main .info-password .input-password .password-label {
+  position: absolute;
+  left: 1px;
+}
+.main .main-container .info-main .info-password .input-password .password {
+  width: 300px;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0rem;
+  font-family: "Yahoo_Sans-Regular";
+  font-size: clamp(1rem, 1.5vh, 0.5rem);
+  color: var(--text-black-color);
+}
+.main .main-container .info-main .info-password .input-password .fa-eye {
+  cursor: pointer;
+  color: var(--text-color);
+}
+.main .main-container .info-main .info-password .next-password {
+  width: 100%;
+  height: 2.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5rem;
+  background-color: var(--btn-background-color);
+  font-family: "Yahoo_Sans-Regular", "Yahoo_Sans-Medium", "Yahoo_Sans-Semibold", "Yahoo_Sans-Bold";
+  font-size: clamp(1rem, 1.5vh, 0.7rem);
+  color: #fff;
+}
+.main .main-container .info-main .info-password .next-password:hover {
+  background-color: var(--btn-backgroundSecund-color);
+  transition: all 1.2s ease-in;
+}
+.main .main-container .info-main .info-password a {
+  margin-top: 1rem;
+  font-family: "Yahoo_Sans-Regular", "Yahoo_Sans-Medium", "Yahoo_Sans-Semibold", "Yahoo_Sans-Bold";
+  font-size: clamp(1rem, 1.5vh, 0.7rem);
+  color: var(--text-blue-color);
+  text-decoration: none;
+}
+.main .main-container .info-main .info-password a:hover {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=layout.css.map */
