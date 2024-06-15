@@ -1,0 +1,222 @@
+.main {
+  width: 100%;
+  height: calc(100% - 1.7rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 10px;
+}
+.main .container .info {
+  width: 100%;
+  height: 420px;
+  display: inherit;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.main .container .info .info-logo {
+  width: 11rem;
+}
+.main .container .info .info-logo img {
+  width: 100%;
+}
+.main .container .info .info-main {
+  width: 100%;
+  height: 83.5%;
+  background-color: var(--main-background-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+  padding: 2.1rem;
+  padding-top: 2.7rem;
+}
+.main .container .info .info-main .main-logo {
+  width: 150px;
+}
+.main .container .info .main-password {
+  display: none;
+  flex-direction: column;
+  margin-top: 0.9rem;
+  gap: 0.5rem;
+}
+.main .container .info .main-password .nicknames {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.75rem, 1.5vh, 0.5rem);
+}
+.main .container .info .main-password h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.2rem, 1.5vh, 0.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+.main .container .info .main-password input {
+  width: 100%;
+  height: 2.1rem;
+  border: unset;
+  outline: none;
+  border-radius: unset;
+  border-bottom: 1px solid #000;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.73rem, 1.5vh, 0.5rem);
+  line-height: 1.2;
+  padding: 0.5rem;
+}
+.main .container .info .main-password h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.73rem, 1.5vh, 0.5rem);
+  line-height: 1.2;
+  margin-top: 0.6rem;
+  color: var(--main-text-blue-color);
+}
+.main .container .info .main-password div {
+  display: flex;
+  justify-content: end;
+}
+.main .container .info .main-password div button {
+  width: 30%;
+  height: 2.1rem;
+  border: unset;
+  outline: none;
+  border-radius: unset;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.73rem, 1.5vh, 0.5rem);
+  line-height: 1.2;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: var(--main-text-blue-color);
+  color: #fff;
+}
+.main .container .info .main-password div button:hover {
+  opacity: 0.8;
+}
+.main .container .info .main-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.9rem;
+  gap: 0.5rem;
+}
+.main .container .info .main-login .main-login-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.main .container .info .main-login .main-login-title h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.3rem, 1.5vh, 0.5rem);
+}
+.main .container .info .main-login .main-login-title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.65rem, 1.5vh, 0.5rem);
+}
+.main .container .info .main-login .display-erros {
+  display: none;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.73rem, 1.5vh, 0.5rem);
+  line-height: 1.2;
+  color: var(--main-text-red-color);
+}
+.main .container .info .main-login .display-erros span {
+  cursor: pointer;
+  color: var(--main-text-blue-color);
+}
+.main .container .info .main-login input {
+  width: 100%;
+  height: 2.1rem;
+  border: unset;
+  outline: none;
+  border-radius: unset;
+  border-bottom: 1px solid var(--border-color-input);
+}
+.main .container .info .main-login h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.65rem, 1.5vh, 0.5rem);
+}
+.main .container .info .main-login h5 span {
+  color: var(--main-text-blue-color);
+}
+.main .container .info .main-login .main-login-input {
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.main .container .info .main-login .main-login-input .next-email {
+  width: 8rem;
+  height: 2.5rem;
+  cursor: pointer;
+  border: unset;
+  outline: none;
+  background-color: var(--input-background-color);
+  font-size: clamp(0.87rem, 1.5vh, 0.5rem);
+  color: var(--main-background-color);
+}
+.main .container .info .main-login .main-login-input .next-email:hover {
+  opacity: 0.7;
+}
+.main .container .key-email, .main .container .info-email {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--main-background-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+}
+.main .container .key-email {
+  cursor: pointer;
+  display: flex;
+  gap: 1.2rem;
+}
+.main .container .key-email:hover {
+  transition: all 1.3s ease-in;
+  background-color: var(--background-color-input);
+}
+.main .container .key-email .fa-key {
+  transform: scaleX(-1);
+}
+.main .container .key-email h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(0.8rem, 1.5vh, 0.5rem);
+  color: var(--main-text-color);
+}
+.main .container .info-email {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  height: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 1.3rem;
+  background-color: var(--footer-background-color);
+}
+.footer a {
+  cursor: pointer;
+  font-family: "Roboto", "Roboto Mono", "Krona One", sans-serif;
+  font-size: clamp(0.7rem, 1.5vh, 0.5rem);
+  color: var(--footer-text-color);
+  text-decoration: none;
+}
+.footer a:hover {
+  transition: all 1.3s ease-in;
+  color: var(--footer-textHover-color);
+  text-decoration: underline;
+}
+.footer i {
+  cursor: pointer;
+  font-size: clamp(1rem, 1.5vh, 0.5rem);
+  color: var(--footer-text-color);
+  margin-right: 1.2rem;
+}
+
+/*# sourceMappingURL=layout.css.map */

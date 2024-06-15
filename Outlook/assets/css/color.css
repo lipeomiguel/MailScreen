@@ -1,0 +1,13 @@
+:root {
+  --footer-background-color: #00000080;
+  --background-color-input: #e4e4e4e5;
+  --border-color-input: #3d3c3c8f;
+  --main-text-blue-color: rgb(0, 103, 184);
+  --main-text-red-color: #ff0000;
+  --input-background-color: rgb(0, 103, 184);
+  --main-background-color: #ffffff;
+  --footer-text-color: #e4e4e4e5;
+  --footer-textHover-color: #ffffff;
+}
+
+/*# sourceMappingURL=color.css.map */

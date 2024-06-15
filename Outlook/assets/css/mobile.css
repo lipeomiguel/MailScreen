@@ -1,0 +1,17 @@
+/* ! Desktops and laptops */
+@media only screen and (max-width: 490px) {
+  .main .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .main .container .key-email, .main .container .info {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+  body {
+    height: 150vh;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

